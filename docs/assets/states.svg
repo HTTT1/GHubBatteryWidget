@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="245" viewBox="0 0 960 245" role="img" aria-labelledby="title desc">
+  <title id="title">Tray icon and background states</title>
+  <desc id="desc">Normal, charging, low, unavailable, solid, translucent and transparent states</desc>
+  <rect width="960" height="245" rx="24" fill="#0e141a"/>
+  <text x="35" y="45" fill="#f3f7f6" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600">Tray states</text>
+  <g font-family="Segoe UI,Arial,sans-serif" text-anchor="middle" fill="white" font-weight="700">
+    <g transform="translate(70 72)"><rect width="62" height="62" rx="17" fill="#26c96c" stroke="white" stroke-width="3"/><text x="31" y="41" font-size="24">78</text><text x="31" y="88" fill="#8fa09c" font-size="12" font-weight="400">Normal</text></g>
+    <g transform="translate(160 72)"><rect width="62" height="62" rx="17" fill="#2d9df5" stroke="white" stroke-width="3"/><text x="31" y="41" font-size="24">50</text><text x="31" y="88" fill="#8fa09c" font-size="12" font-weight="400">Charging</text></g>
+    <g transform="translate(250 72)"><rect width="62" height="62" rx="17" fill="#ef4942" stroke="white" stroke-width="3"/><text x="31" y="41" font-size="24">12</text><text x="31" y="88" fill="#8fa09c" font-size="12" font-weight="400">Low</text></g>
+    <g transform="translate(340 72)"><rect width="62" height="62" rx="17" fill="#657079" stroke="white" stroke-width="3"/><text x="31" y="42" font-size="26">?</text><text x="31" y="88" fill="#8fa09c" font-size="12" font-weight="400">Waiting</text></g>
+  </g>
+  <line x1="445" y1="35" x2="445" y2="210" stroke="#29343c"/>
+  <text x="480" y="45" fill="#f3f7f6" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="600">Background modes</text>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <g transform="translate(480 70)"><rect width="430" height="38" rx="16" fill="#222a28" stroke="white" stroke-opacity=".2"/><text x="18" y="25" fill="white" font-size="13" font-weight="600">PRO X SUPERLIGHT</text><text x="322" y="25" fill="#a2b0ad" font-size="12">100% solid</text></g>
+    <g transform="translate(480 120)"><rect width="430" height="38" rx="16" fill="#222a28" fill-opacity=".55" stroke="white" stroke-opacity=".15"/><text x="18" y="25" fill="white" font-size="13" font-weight="600">PRO X SUPERLIGHT</text><text x="293" y="25" fill="#a2b0ad" font-size="12">55% background</text></g>
+    <g transform="translate(480 170)"><rect width="430" height="38" rx="16" fill="none"/><text x="18" y="25" fill="white" font-size="13" font-weight="600">PRO X SUPERLIGHT</text><text x="271" y="25" fill="#a2b0ad" font-size="12">Transparent background</text></g>
+  </g>
+</svg>

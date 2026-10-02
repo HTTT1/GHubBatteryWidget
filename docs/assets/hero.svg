@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">G HUB Battery Widget</title>
+  <desc id="desc">A lightweight translucent Logitech battery widget for Windows</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1117"/><stop offset="1" stop-color="#17242b"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd87e"/><stop offset="1" stop-color="#37a9ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#000" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <rect width="960" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="825" cy="55" r="170" fill="#2dd87e" opacity=".06"/>
+  <circle cx="915" cy="310" r="220" fill="#37a9ff" opacity=".055"/>
+
+  <g transform="translate(60 67)">
+    <rect width="58" height="58" rx="17" fill="url(#glow)"/>
+    <rect x="16" y="17" width="25" height="27" rx="5" fill="none" stroke="white" stroke-width="4"/>
+    <rect x="23" y="11" width="11" height="5" rx="2" fill="white"/>
+    <path d="M30 20l-7 12h7l-3 10 10-15h-7z" fill="white"/>
+  </g>
+  <text x="137" y="100" fill="#f5f8f7" font-family="Segoe UI,Arial,sans-serif" font-size="34" font-weight="700">G HUB Battery Widget</text>
+  <text x="60" y="151" fill="#aebcb8" font-family="Segoe UI,Arial,sans-serif" font-size="17">A tiny, private and multi-monitor-aware desktop overlay for Logitech G HUB.</text>
+  <text x="60" y="181" fill="#80918d" font-family="Segoe UI,Arial,sans-serif" font-size="15">Portable · Background-only transparency · Charging-aware · No telemetry</text>
+
+  <g transform="translate(60 222)" filter="url(#shadow)">
+    <rect width="390" height="91" rx="31" fill="#222a28" fill-opacity=".78" stroke="white" stroke-opacity=".22"/>
+    <text x="25" y="32" fill="#f5f8f7" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">PRO X SUPERLIGHT</text>
+    <path d="M27 59c7-7 15-7 22 0M32 64c4-4 8-4 12 0" fill="none" stroke="#dbe5e2" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="38" cy="69" r="1.8" fill="#dbe5e2"/>
+    <text x="56" y="68" fill="#dbe5e2" font-family="Segoe UI,Arial,sans-serif" font-size="12">LIGHTSPEED</text>
+    <rect x="155" y="54" width="13" height="15" rx="2" fill="none" stroke="#e8efed" stroke-width="1.5"/>
+    <rect x="159" y="50" width="5" height="3" rx="1" fill="#e8efed"/>
+    <text x="178" y="68" fill="#e8efed" font-family="Segoe UI,Arial,sans-serif" font-size="12">78%</text>
+    <text x="296" y="68" fill="#a2b0ad" font-family="Segoe UI,Arial,sans-serif" font-size="12">about 48 h</text>
+  </g>
+
+  <g transform="translate(500 222)" filter="url(#shadow)">
+    <rect width="400" height="91" rx="31" fill="#222a28" fill-opacity=".42" stroke="white" stroke-opacity=".15"/>
+    <text x="25" y="32" fill="#f5f8f7" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">PRO X SUPERLIGHT</text>
+    <path d="M26 54h14v14H26zM30 50h6v4M30 60h2M35 60h2" fill="none" stroke="#dbe5e2" stroke-width="1.5"/>
+    <text x="50" y="68" fill="#dbe5e2" font-family="Segoe UI,Arial,sans-serif" font-size="12">USB</text>
+    <rect x="119" y="54" width="13" height="15" rx="2" fill="none" stroke="#5fc1ff" stroke-width="1.5"/>
+    <rect x="123" y="50" width="5" height="3" rx="1" fill="#5fc1ff"/>
+    <path d="M148 53l-6 9h5l-2 8 8-11h-5z" fill="#5fc1ff"/>
+    <text x="159" y="68" fill="#5fc1ff" font-family="Segoe UI,Arial,sans-serif" font-size="12">50%</text>
+    <text x="326" y="68" fill="#a2b0ad" font-family="Segoe UI,Arial,sans-serif" font-size="12">Charging</text>
+  </g>
+</svg>
